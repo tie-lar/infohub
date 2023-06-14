@@ -1,0 +1,50 @@
+#topBtn {
+	background-color: rgb(11, 11, 79);
+	color: white;
+	font-size: 16px;
+	border: 5x solid green;
+	border-radius: 5px;
+
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	height: 60px;
+	width: 60px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#topBtn:hover {
+	color: rgb(155, 236, 74);
+}
+
+#topBtn::before {
+	border: 1px solid rgb(11, 11, 79);
+	border-radius: 5px;
+
+	/*Position is set to absolute to allow "border expand effect" to be placed inside the button*/
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+	transition: 400ms ease-out;
+}
+
+#topBtn:focus::before,
+#topBtn:hover::before {
+	border: 3px solid rgb(0, 221, 62);
+
+	/*clac() is performed to expand the "border expand effect" upon hover or focus */
+	top: calc(3px * -3);
+	bottom: calc(3px * -3);
+	right: calc(3px * -3);
+	left: calc(3px * -3);
+
+	transition: 400ms ease-in;
+}

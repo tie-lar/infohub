@@ -1,0 +1,13 @@
+.inverseColour {
+  height: 2rem;
+  width: 9rem;
+  font-size: 0.5rem;
+  border-radius: 20px;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+
+.inversed {
+  filter: invert(1);
+}

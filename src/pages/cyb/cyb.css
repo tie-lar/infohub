@@ -1,0 +1,184 @@
+.cyb-container{
+    color: black;
+    font-family: var(--font-family);
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.header-cont {
+    margin-left: 2rem;
+}
+
+.cyb-content{
+
+}
+
+#cyb-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.hacker{
+    margin-left: 1rem;
+    width: 25rem;
+    margin-top: 2rem;
+}
+
+.cyb-content-heading{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 5px;
+}
+
+.cyb-content-attacks{
+
+}
+
+#phishing-content{
+    background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 5px;
+}
+
+.cyb-content-attacks h2{
+    font-weight: 400;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+
+.cyb-content-attacks-heading{
+    margin-top: 3rem;
+    background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.cyb-content-attacks-content video{
+    width: 27rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+
+.cyb-content-attacks-heading h2{
+    margin-bottom: 2rem;
+}
+
+#cyb-watchout{
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.cyb-content-attacks-content{
+
+}
+
+.cyb-content-attacks-content h3{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline black;
+}
+
+.cyb-content-attacks-content h2{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.cyb-content-attacks-content p{
+    margin-bottom: 1rem;
+}
+
+.cyb-content-tips{
+    background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.cyb-content-tips li{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.cyb-content-other{
+    margin-bottom:5rem;
+    background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 5px;
+    margin-top: 1rem;
+}
+
+.cyb-content-other h2{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cyb-content-other p{
+    margin: 1rem 0;
+}
+
+.cyb-content-other a{
+    font-weight: 800;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+    margin-left: 10px;
+    list-style-type: circle;
+}
+
+a:link {
+    color: blue;
+}
+
+/*
+a:visited {
+    color: purple;
+}
+*/
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 550px) {
+  
+
+}

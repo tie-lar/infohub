@@ -1,0 +1,87 @@
+#textReaderContainer {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: rgb(238, 228, 208);
+
+	position: fixed;
+	bottom: 5%;
+	left: 5%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+#textReaderContainer h4 {
+	text-decoration: none;
+	text-align: center;
+	margin-right: 5px;
+}
+
+#speakerContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#speakerContainer #speakerOn {
+	display: flex-start;
+	font-size: 20px;
+}
+
+#buttonContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.textReaderBtn {
+	background-color: rgb(11, 11, 79);
+	color: white;
+	font-size: 16px;
+	border: 5x solid green;
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+	position: relative;
+	/*This transition makes the green text ease-out to black over 300ms when user isn't hovering over button*/
+	transition: 300ms ease-out;
+}
+
+/*Colour of button will change to green if the user hovers or focuses on the button*/
+.textReaderBtn:hover {
+	color: rgb(0, 221, 62);
+	/*Sets a transition duration of 300ms allowing for a smooth change to green text*/
+	transition: 300ms ease-in;
+}
+
+.textReaderBtn::before {
+	content: "";
+	/*Position is set to absolute to allow underline effect to be placed inside the button*/
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 2px;
+	background-color: rgb(0, 221, 62);
+	/*Resizes the underline effect on the horizontal axis to 0, ensuring it is hidden by default*/
+	transform: scaleX(0);
+	/*Sets a transition duration of 200ms allowing for a smooth underline effect*/
+	transition: transform 200ms ease-in-out;
+}
+
+.textReaderBtn:hover::before {
+	/*Resizes the underline effect on the horizontal axis to 1, ensuring it is shown when hovered over*/
+	transform: scaleX(1);
+}
+
+#errorMessage {
+	font-size: 10px;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}

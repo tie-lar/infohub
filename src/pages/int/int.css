@@ -1,0 +1,507 @@
+.header-cont {
+    margin-left: 2rem;
+}
+
+
+.int-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(0, 0, 0);
+	flex-direction: column;
+	font-family: var(--font-family);
+	color: black;
+}
+
+.invert-page{
+    width: 23rem;
+}
+
+
+.mid-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10rem;
+	margin-left: 10rem;
+}
+
+.mid-section {
+	margin-top: 3rem;
+}
+
+.mid-section h2 {
+    margin-top: 5rem;
+    font-weight: 600;
+}
+
+img {
+	margin: 0;
+}
+
+h3,
+h4 {
+	text-decoration: underline;
+}
+/* !!!!!!!!!!my code (Dawid)!!!!!!!!!!! */
+
+#internetIntro {
+	background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+
+#internet {
+	width: 100%;
+	max-height: 250px;
+	max-width: 250px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 10px;
+}
+
+#mobileBroadband,
+#storesGovan,
+#homeBroadband,
+#freeAccess,
+#digitalLibraries {
+	background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 2rem;
+}
+
+#mobileBroadband,
+#homeBroadband,
+#freeAccess {
+	margin-top: 1rem;
+}
+
+.internetAccessLink {
+	color: blue;
+}
+
+.internetAccessLink:hover,
+.internetAccessLink:focus {
+	text-decoration: underline;
+}
+
+#threeSimCard {
+	min-height: 90px;
+	max-width: 90px;
+}
+
+#insertSimCard {
+	max-height: 120px;
+}
+
+#simCardContainer,
+#mobileDataContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: start;
+	margin-top: 2rem;
+	gap: 10px;
+}
+
+#threeSimCardContainer,
+#insertSimCardContainer {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#insertSimCardContainer {
+	max-width: 50%;
+}
+
+#threeSimCardContainer p,
+#insertSimCardContainer p {
+	text-align: center;
+}
+
+#mobileData {
+	width: 100%;
+	max-width: 500px;
+	border-radius: 10px;
+}
+
+#mobilePlanTable {
+	border: 1px solid black;
+	table-layout: fixed;
+	overflow: hidden;
+	/*Makes table borders collapse into a single border*/
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#mobilePlanTable caption {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#mobilePlanTable tr th {
+	text-align: center;
+}
+
+#mobilePlanTable th,
+#mobilePlanTable td {
+	text-align: left;
+	padding: 0.5rem;
+	word-wrap: break-word;
+	border: 1px solid black;
+}
+
+#govanStores,
+#elderLib,
+#ibroxLib {
+	max-height: 600px;
+}
+
+#noSignal,
+#router {
+	max-height: 150px;
+	max-width: 200px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+#govanHousing {
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.organisationList {
+	margin-left: 2.5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+	.mid-section {
+		margin-right: 1rem;
+		margin-left: 1rem;
+	}
+	#mobileBroadband,
+	#storesGovan,
+	#homeBroadband,
+	#freeAccess {
+		padding: 5px;
+	}
+}
+
+
+/*------------------------- jeffrey stuff-----------------*/
+
+
+.IAintro{
+    display: flex;
+	background-color: rgb(175, 210, 79);
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+	height: 8rem;
+    width: 27rem;
+	
+}
+
+
+.tutorialPara{
+	margin-top: 1rem;
+}
+
+.internet101,
+.physicalDigitalSupportStations{
+	background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 20px 40px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	width: 30rem;
+  }
+  .internet101 p {
+	margin-top: 1rem;
+}
+
+.intro101{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background-color: rgb(255, 255, 255);
+   
+	width: 25rem;
+	padding: 5px;
+   
+}
+.intro101 h3{
+	font-style: italic;
+	text-align: center;
+}
+.intro101 p{
+	text-align: center;
+}
+.intro101 a{
+	color: blue;
+}
+
+.controlsTutorial {
+	margin-top: 1rem;
+}
+.iconTutorial {
+	margin-top: 1rem;
+}
+.termsTutorial {
+	margin-top: 1rem;
+}
+
+.screenControlContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: start;
+	margin-top: 2rem;
+	height: auto;
+	width:25rem;
+}
+
+
+.sampleimage-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%; 
+	width:90vh;
+	margin: auto;
+  }
+  
+  .image-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+  }
+
+  .sampleimage-container-2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: start;
+	margin-top: 2rem;
+}
+.sampleimage-container-2 p{
+	margin: 100px;
+}
+.sampleimage-container-2 img{
+	
+}
+
+.tips{
+    background-color: rgb(255, 217, 91);
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	min-height: 120px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	display: block;
+}
+.tipsLeftDiv {
+	color: #000;
+	height: auto;
+	width: 20%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin: auto;
+	overflow:auto;
+}
+.tipsLeftDiv img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60%;
+	max-height: 60%;
+}
+.tipsRightDiv {
+	color: #000;
+	height: auto;
+	width: 80%;
+	float: right;
+	margin: auto;
+	overflow:auto;
+}
+
+
+.icons{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.icons img{
+    
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    width: 27rem;
+}
+
+.sec-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    width: 27rem;
+}
+
+.third-row {
+    display: flex;
+    flex-direction: row;
+    width: 27rem;
+}
+
+.homeicon p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.homeicon h4{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.homeicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 243, 234);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 25px;
+    margin-right: 1rem;
+    width: 15rem;
+    height: 10rem;
+    padding: 1rem;
+
+}
+
+
+#homeicon{
+    width: 1.5rem;
+}
+
+#settingsicon{
+    width: 1.5rem;
+}
+
+#EllipsisIcon{
+    width: 1.5rem;
+}
+
+#BarIcon{
+    width: 1.5rem;
+}
+
+#PlayIcon{
+    width: 1.5rem;
+ 
+}
+
+#EnvelopeIcon{
+    width: 1.5rem;
+}
+
+#Searchicon{
+    width: 1.5rem;
+}
+
+#RefreshIcon{
+    width: 1.5rem;
+}
+
+#BinIcon{
+    width: 1.5rem;
+}
+
+
+.fullWrapperRow{
+	display: block;
+	text-align: center;
+	margin: 5px;
+	background-color: rgb(250, 243, 234);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	padding: 10px;
+	border-radius: 25px;
+}
+.fullWrapperRow img{
+	width: 25%;
+    height: 25%;
+}
+
+  .hyperlinks{
+	color: blue;
+	font: italic;
+  }
+  
+  .popquiz{
+    background-color: rgb(131, 255, 164);
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	min-height: 120px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	display: block;
+  }
+  .popquiz img{
+		margin: 10px;
+		height: 8%;
+		max-width: 8%;
+		display: block;
+  }
+  .popquiz .tipsrightDiv p{
+	
+  }
+
+  .mapbox{
+	margin: auto;
+	width: 90%;
+	border: 3px solid green;
+	padding: 10px;
+  }
+
+  .screenControlImg{
+	width: 95%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+  }
+/*-------------------------  -----------------*/

@@ -1,0 +1,120 @@
+.school-container{
+    color: black;
+    font-family: var(--font-family);
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.header-cont {
+    margin-left: 2rem;
+}
+
+.school-content{
+    
+}
+
+#school-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    font-weight: 600;
+}
+
+
+.kids{
+    margin-left: 2rem;
+    width: 25rem;
+    margin-top: 2rem;
+}
+
+.school-content-heading{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+   
+}
+
+.school-content-heading h3, h2{
+    text-align: center;
+    font-weight: 100;
+}
+
+.school-content-heading h3{
+    font-style: italic;
+}
+
+.school-content-list{
+ margin-top: 2rem;
+ background-color: rgb(238, 228, 208);
+ border: 1px solid black;
+ border-radius: 5px;
+ padding: 5px;
+}
+
+.school-content-list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    
+}
+   
+.school-content-intouni{
+    margin-top: 1rem;
+    background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 5px;
+   
+}
+
+.map-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.map-container h4{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.map-container iframe{
+    margin-bottom:2rem;
+}
+
+.school-content-findschools{
+    background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 5px;
+}
+
+.school-content-tips{
+    margin-bottom: 3rem;
+    background-color: rgb(238, 228, 208);
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 5px;
+    margin-top: 2rem;
+}
+
+.school-content-tips ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.list{
+
+}
+
+
