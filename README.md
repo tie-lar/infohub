@@ -2,6 +2,7 @@ Prerequisites:
 - npm i react-icons
 - npm i swiper
 - npm i @emailjs/browser
+- npm i browser-router 
 - npm i react-speech-kit --force
 - use with max-width of 550px
 
